@@ -6,6 +6,6 @@ read b
 echo -n "Enter Third Number: "
 read c
 
-echo "Compute the value of 'c+a/b': "
-S1=$(($c+$a/$b))
+echo "Compute the value of 'a%b+c': "
+S1=$(($a%$b+$c))
 echo $S1
